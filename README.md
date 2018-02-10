@@ -1,6 +1,6 @@
 # iamsangeeth
 
-> my personal website
+> My personal website
 
 ## Build Setup
 
