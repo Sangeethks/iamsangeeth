@@ -16,6 +16,8 @@ const loadMinified = require('./load-minified')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 // cleans dist folder on build
+// console.log('[process ]', JSON.stringify(process, undefined, 4));
+// console.log('[process ]', process);
 let cleanPaths = ['dist']
 let cleanWebpackOptions = {
   root: process.env.PWD,
@@ -114,7 +116,8 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
     // service worker caching
     new SWPrecacheWebpackPlugin({
-      cacheId: 'iamsangeeth',
+      // cacheId: 'iamsangeeth',
+      cacheId: Math.floor(new Date() / 1000),
       filename: 'service-worker.js',
       staticFileGlobs: ['dist/**/*.{js,html,css}'],
       minify: true,
