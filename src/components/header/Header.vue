@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="ims-header">
+  <div class="ims-header ims-section">
     <h2 class="header-title">sangeeth_ks</h2>
     <h5 class="text-comment">// Software Engineer and Web Enthusiast</h5>
     <div class="ims-nav">

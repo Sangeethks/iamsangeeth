@@ -40,3 +40,23 @@
     padding-right: 10px;
   }
 }
+.ims-cht-section {
+  text-align: center;
+  ul {
+    margin: 25px 0;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        color: $text-white-color;
+        margin: 0 12px;
+        &:hover {
+          color: $text-comment-color;
+        }
+      }
+    }
+  }
+}
+
+@import "./footer";
+@import "./modules/media";

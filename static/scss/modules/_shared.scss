@@ -1,0 +1,32 @@
+@import "./variables";
+
+.ims-sec-title {
+    margin-bottom: 15px;
+}
+.ims-section {
+    margin-bottom: 30px;
+}
+.ims-color-seperator {
+  margin-bottom: 60px;
+  .ims-color-sp {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 3px;
+    &.violet {
+      background-color: $bg-violet-color;
+    }
+    &.green {
+      background-color: $bg-green-color;
+    }
+    &.red {
+      background-color: $bg-red-color;
+    }
+    &.orange {
+      background-color: $bg-orange-color;
+    }
+    &.blue {
+      background-color: $bg-blue-color;
+    }
+  }
+}

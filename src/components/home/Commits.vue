@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="ims-commits">
+  <div class="ims-commits ims-section">
     <h5 class="ims-sec-title">COMMITS</h5>
     <div class="ims-commit-table">
       <table>
@@ -61,7 +61,7 @@
           <td><p>First Freelance Project<span class="ims-cmt-yr">// Oct 2014</span></p></td>
           <td>
             <p>Hospital blood bank website for</p>
-            <p><span class="text-green">MNH Hospital, Mannarkkad</span></p>
+            <p><span class="text-green">MNH Hospital, Palakkad</span></p>
           </td>
         </tr>
 

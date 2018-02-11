@@ -45,10 +45,7 @@ td {
 ul, li {
   list-style: none;
 }
-.ims-sec-title {
-    margin-bottom: 15px;
-}
 
 @import "./modules/grid";
 @import "./modules/typography";
-@import "./modules/media";
+@import "./modules/shared";
