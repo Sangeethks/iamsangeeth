@@ -1,0 +1,22 @@
+@import "./modules/variables";
+
+.header-title {
+    margin-bottom: 5px;
+}
+.ims-nav {
+    margin: 10px 0;
+}
+.ims-nav ul {
+    text-align: center;
+}
+.ims-nav ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+.ims-nav ul li a {
+  display: block;
+  color: $text-color;
+  &:hover {
+    color: $text-comment-color;
+  }
+}
