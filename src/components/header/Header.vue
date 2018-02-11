@@ -5,9 +5,9 @@
     <div class="ims-nav">
       <ul>
         <li><router-link :to="{ name: 'RouteHome' }">Home</router-link></li>
-        <li><router-link :to="{ name: 'RouteHome' }">Work</router-link></li>
+        <li><router-link :to="{ name: 'RouteWork' }">Work</router-link></li>
         <li><router-link :to="{ name: 'RouteHome' }" target="_blank">Resume</router-link></li>
-        <li><router-link :to="{ name: 'RouteHome' }">Blog</router-link></li>
+        <li><router-link :to="{ name: 'RouteBlog' }">Blog</router-link></li>
       </ul>
     </div>
   </div>

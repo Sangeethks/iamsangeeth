@@ -57,6 +57,10 @@
     }
   }
 }
+.ims-readme a {
+    color: $text-white-color;
+    font-weight: 600;
+}
 
 @import "./footer";
 @import "./modules/media";
