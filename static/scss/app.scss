@@ -8,7 +8,7 @@
 body {
   background-color: $bg-dark-color;
   font-family: monospace;
-  color: $text-color;
+  color: $text-white-color;
   font-weight: 400;
   font-size: 15px;
 }
@@ -28,7 +28,7 @@ h4 {
   font-size: 1.6em;
 }
 h5 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 h6 {
     font-size: 1em;
@@ -36,9 +36,19 @@ h6 {
 p {
   font-size: 1em;
 }
+pre {
+  white-space: pre-wrap;
+}
+td {
+    vertical-align: baseline;
+}
 ul, li {
   list-style: none;
+}
+.ims-sec-title {
+    margin-bottom: 15px;
 }
 
 @import "./modules/grid";
 @import "./modules/typography";
+@import "./modules/media";

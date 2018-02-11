@@ -15,8 +15,11 @@
 }
 .ims-nav ul li a {
   display: block;
-  color: $text-color;
+  color: $text-white-color;
   &:hover {
     color: $text-comment-color;
   }
+}
+.ims-header {
+    margin-bottom: 30px;
 }
