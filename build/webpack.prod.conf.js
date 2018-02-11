@@ -119,9 +119,15 @@ const webpackConfig = merge(baseWebpackConfig, {
       // cacheId: 'iamsangeeth',
       cacheId: Math.floor(new Date() / 1000),
       filename: 'service-worker.js',
-      staticFileGlobs: ['dist/**/*.{js,html,css}'],
+      staticFileGlobs: [
+        'dist/**/*.{js,css}'
+      ],
       minify: true,
-      stripPrefix: 'dist/'
+      stripPrefix: 'dist/',
+      runtimeCaching: [{
+        urlPattern: /\/$/,
+        handler: 'networkFirst'
+      }]
     })
   ]
 })
