@@ -11,9 +11,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../static/scss/modules/_variables.scss';
-
-body {
-  background-color: $bg-color;
-}
+@import '../static/scss/app.scss';
 </style>
