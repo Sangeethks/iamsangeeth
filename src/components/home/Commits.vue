@@ -60,8 +60,7 @@
           <td class="ims-cmt-dot-td"><span class="ims-cmt-dot violet"></span></td>
           <td><p>First Freelance Project<span class="ims-cmt-yr">// Oct 2014</span></p></td>
           <td>
-            <p>Hospital blood bank website for</p>
-            <p><span class="text-green">MNH Hospital, Palakkad</span></p>
+            <p>Website for <span class="text-green">MNH Hospital</span></p>
           </td>
         </tr>
 

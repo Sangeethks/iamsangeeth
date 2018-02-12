@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import Header from '@/components/header/Header.vue'
+import Header from '@/components/shared/Header.vue'
 const Readme = () => import(/* webpackChunkName: "Readme" */ './Read-me.vue')
 const Commits = () => import(/* webpackChunkName: "Commits" */ './Commits.vue')
 const Checkout = () => import(/* webpackChunkName: "Checkout" */ './Checkout.vue')
 const ColorSeperator = () => import(/* webpackChunkName: "ColorSeperator" */ '@/components/shared/ColorSeperator.vue')
-const Footer = () => import(/* webpackChunkName: "Footer" */ '@/components/footer/Footer.vue')
+const Footer = () => import(/* webpackChunkName: "Footer" */ '@/components/shared/Footer.vue')
 
 export default {
   components: {
