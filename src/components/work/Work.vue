@@ -12,8 +12,8 @@
 import Header from '@/components/shared/Header.vue'
 import UnderConstruction from '@/components/shared/UnderConstruction.vue'
 
-const ColorSeperator = () => import(  /* webpackChunkName: "ColorSeperator" */ '@/components/shared/ColorSeperator.vue')
-const Footer = () => import( /* webpackChunkName: "Footer" */ '@/components/shared/Footer.vue')
+const ColorSeperator = () => import(/* webpackChunkName: "ColorSeperator" */ '@/components/shared/ColorSeperator.vue')
+const Footer = () => import(/* webpackChunkName: "Footer" */ '@/components/shared/Footer.vue')
 
 export default {
   components: {
