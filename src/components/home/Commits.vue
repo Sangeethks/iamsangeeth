@@ -73,3 +73,48 @@
   export default {
   }
 </script>
+
+<style lang="scss">
+@import "~scss/modules/variables";
+
+.ims-commit-table {
+  table {
+    width: 100%;
+    .ims-cmt-yr {
+      display: block;
+      font-size: 12px;
+      margin-top: 3px;
+      color: $text-comment-color;
+    }
+    .spacer {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .ims-cmt-dot {
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 20px;
+    &.orange {
+      background-color: $bg-orange-color;
+    }
+    &.green {
+      background-color: $bg-green-color;
+    }
+    &.violet {
+      background-color: $bg-violet-color;
+    }
+    &.red {
+      background-color: $bg-red-color;
+    }
+    &.blue {
+      background-color: $bg-blue-color;
+    }
+  }
+  .ims-cmt-dot-td {
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+}
+</style>

@@ -1,0 +1,26 @@
+[debug] [2018-02-21T11:50:58.635Z] ----------------------------------------------------------------------
+[debug] [2018-02-21T11:50:58.639Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-02-21T11:50:58.640Z] CLI Version:   3.17.4
+[debug] [2018-02-21T11:50:58.640Z] Platform:      darwin
+[debug] [2018-02-21T11:50:58.640Z] Node Version:  v8.9.3
+[debug] [2018-02-21T11:50:58.641Z] Time:          Wed Feb 21 2018 17:20:58 GMT+0530 (IST)
+[debug] [2018-02-21T11:50:58.641Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-21T11:50:58.662Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-21T11:50:58.662Z] > authorizing via signed-in user
+[debug] [2018-02-21T11:50:58.664Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/iamsangeethks  
+  
+ Wed Feb 21 2018 17:20:58 GMT+0530 (IST)
+[debug] [2018-02-21T11:51:00.782Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-21T11:51:00.784Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/iamsangeethks/tokens  
+  
+ Wed Feb 21 2018 17:21:00 GMT+0530 (IST)
+[debug] [2018-02-21T11:51:02.257Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'iamsangeethks'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing dist directory for upload...
+[debug] [2018-02-21T11:51:04.637Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/iamsangeethks/uploads/-L5sByKnaapeI5-KpNJJ?fileCount=43&message=  
+  
+ Wed Feb 21 2018 17:21:04 GMT+0530 (IST)

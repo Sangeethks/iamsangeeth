@@ -20,3 +20,29 @@
 export default {
 }
 </script>
+
+<style lang="scss">
+@import "~scss/modules/variables";
+
+.ims-cht-section {
+  text-align: center;
+  ul {
+    margin: 25px 0;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        color: $text-white-color;
+        margin: 0 12px;
+        &:hover {
+          color: $text-comment-color;
+        }
+        @media screen and (max-width: $break-small) {
+          margin: 0 1px;
+        }
+      }
+    }
+  }
+
+}
+</style>

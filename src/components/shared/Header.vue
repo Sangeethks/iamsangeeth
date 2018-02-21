@@ -19,5 +19,29 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~scss/header.scss';
+@import "~scss/modules/variables";
+
+.ims-header {
+  margin-top: 10px;
+}
+.header-title {
+  margin-bottom: 8px;
+}
+.ims-nav {
+  margin: 10px 0;
+}
+.ims-nav ul {
+  text-align: center;
+}
+.ims-nav ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+.ims-nav ul li a {
+  display: block;
+  color: $text-white-color;
+  &:hover {
+    color: $text-comment-color;
+  }
+}
 </style>

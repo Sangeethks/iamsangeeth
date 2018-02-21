@@ -5,6 +5,7 @@
     <div class="ims-color-sp red"></div>
     <div class="ims-color-sp blue"></div>
     <div class="ims-color-sp orange"></div>
+    <div class="clearfix"></div>
   </div>
 </template>
 
