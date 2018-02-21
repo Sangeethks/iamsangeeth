@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../../static/scss/work.scss';
+@import '~scss/work.scss';
 </style>

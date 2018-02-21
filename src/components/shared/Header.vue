@@ -6,7 +6,7 @@
       <ul>
         <li><router-link :to="{ name: 'RouteHome' }">Home</router-link></li>
         <li><router-link :to="{ name: 'RouteWork' }">Work</router-link></li>
-        <li><router-link :to="{ name: 'RouteHome' }" target="_blank">Resume</router-link></li>
+        <li><a href="/static/sangeeth-ks-resume.pdf" target="_blank">Resume</a></li>
         <li><router-link :to="{ name: 'RouteBlog' }">Blog</router-link></li>
       </ul>
     </div>
@@ -19,5 +19,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../../../static/scss/header.scss';
+@import '~scss/header.scss';
 </style>

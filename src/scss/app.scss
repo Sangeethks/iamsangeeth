@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease;
 }
 body {
   background-color: $bg-dark-color;
@@ -38,6 +37,7 @@ p {
 }
 pre {
   white-space: pre-wrap;
+  line-height: 18px;
 }
 td {
     vertical-align: baseline;
