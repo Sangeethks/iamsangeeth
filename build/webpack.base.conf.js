@@ -25,7 +25,8 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      'scss': resolve('src/scss')
+      'scss': resolve('src/scss'),
+      'nm': resolve('node_modules')
     }
   },
   module: {
@@ -76,7 +77,7 @@ module.exports = {
       {
         test: /\.s[a|c]ss$/,
         loader: 'style!css!sass',
-        include: [resolve('src'), resolve('test')]
+        include: [resolve('src'), resolve('test'), resolve('node_modules')]
       }
     ]
   }
