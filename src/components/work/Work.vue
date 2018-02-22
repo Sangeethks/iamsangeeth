@@ -5,21 +5,11 @@
     <!-- <cmp-under-construction></cmp-under-construction> -->
 
     <div class="row">
-        <div class="col-md-3">
-            <h1>hello</h1>
+        <div class="col-md-6" v-for="i in 5" :key="i">
+            <slot-portfolio-card></slot-portfolio-card>
         </div>
-        <div class="col-md-3">
-            <h1>hello</h1>
-        </div>
-        <div class="col-md-3">
-            <h1>hello</h1>
-        </div>
-        <div class="col-md-3">
-            <h1>hello</h1>
-        </div>
+        <div class="clearfix"></div>
     </div>
-
-    <slot-portfolio-card v-for="i in 5" :key="i"></slot-portfolio-card>
 
     <cmp-footer></cmp-footer>
   </div>
@@ -30,8 +20,10 @@
 import Header from '@/components/shared/Header.vue'
 // import UnderConstruction from '@/components/shared/UnderConstruction.vue'
 
-const Footer = () => import(/* webpackChunkName: "Footer" */ '@/components/shared/Footer.vue')
-const PortfolioCard = () => import(/* webpackChunkName: "PortfolioCard" */ '@/components/slots/PortfolioCard.vue')
+const Footer = () =>
+  import(/* webpackChunkName: "Footer" */ '@/components/shared/Footer.vue')
+const PortfolioCard = () =>
+  import(/* webpackChunkName: "PortfolioCard" */ '@/components/slots/PortfolioCard.vue')
 
 export default {
   components: {
@@ -42,3 +34,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.ims-port-card {
+  margin-bottom: 50px;
+}
+</style>
