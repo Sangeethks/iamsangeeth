@@ -5,7 +5,7 @@
     <div class="ims-nav">
       <ul>
         <li><router-link :to="{ name: 'RouteHome' }">Home</router-link></li>
-        <li><router-link :to="{ name: 'RouteWork' }">Work</router-link></li>
+        <li><router-link :to="{ name: 'RouteProjects' }">Projects</router-link></li>
         <li><a href="/static/sangeeth-ks-resume.pdf" target="_blank">Resume</a></li>
         <li><router-link :to="{ name: 'RouteBlog' }">Blog</router-link></li>
       </ul>

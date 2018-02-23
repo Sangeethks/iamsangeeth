@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/home/Home'
 
-const Work = (resolve) => {
-  require.ensure(['@/components/work/Work.vue'], () => {
-    resolve(require('@/components/work/Work.vue'))
-  }, 'Route-work')
+const Projects = (resolve) => {
+  require.ensure(['@/components/projects/Projects.vue'], () => {
+    resolve(require('@/components/projects/Projects.vue'))
+  }, 'Route-projects')
 }
 
 const Blog = (resolve) => {
@@ -30,9 +30,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/work',
-      name: 'RouteWork',
-      component: Work
+      path: '/projects',
+      name: 'RouteProjects',
+      component: Projects
     },
     {
       path: '/blog',
