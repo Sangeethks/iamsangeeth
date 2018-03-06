@@ -1,13 +1,13 @@
 // import Vue from 'vue'
 
 const state = {
-  msgUnderConstruction: 'Hold on tight! I will get back to you soon..'
+    msgUnderConstruction: 'Hold on tight! I will get back to you soon..'
 }
 
 const getters = {
-  msgUnderConstruction: (state) => {
-    return state.msgUnderConstruction
-  }
+    msgUnderConstruction: (state) => {
+        return state.msgUnderConstruction
+    }
 }
 
 const mutations = {
